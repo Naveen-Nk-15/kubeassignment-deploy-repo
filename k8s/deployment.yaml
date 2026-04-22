@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: kubeassignment-api
-          image: naveennk15/kubeassignment-api:f605cf1
+          image: naveennk15/kubeassignment-api:bd70d0d
           ports:
             - containerPort: 8000
           resources:
