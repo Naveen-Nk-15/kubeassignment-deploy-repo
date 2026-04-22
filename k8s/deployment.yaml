@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: kubeassignment-api
-          image: ${{DOCKERHUB_USERNAME}}/kubeassignment-api:latest
+          image: naveennk15/kubeassignment-api:0fb8e03
           ports:
             - containerPort: 8000
           resources:
