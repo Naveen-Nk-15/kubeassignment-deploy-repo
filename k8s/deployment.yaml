@@ -4,6 +4,9 @@ metadata:
   name: kubeassignment-api
   labels:
     app: kubeassignment-api
+env:
+  - name: LOKI_URL
+    value: "http://loki-gateway.loki.svc.cluster.local/loki/api/v1/push"
 spec:
   replicas: 2
   selector:
